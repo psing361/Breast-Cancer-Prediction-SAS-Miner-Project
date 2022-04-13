@@ -1,0 +1,72 @@
+*------------------------------------------------------------*
+User:                u59397413
+Date:                13 April 2022
+Time:                01:39:06
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          1
+INPUT      NOMINAL           8
+TARGET     NOMINAL           1
+ 
+ 
+ 
+ 
+Partition Summary
+ 
+                                     Number of
+Type             Data Set          Observations
+ 
+DATA        EMWS1.FIMPORT_train         286
+TRAIN       EMWS1.Part_TRAIN            170
+VALIDATE    EMWS1.Part_VALIDATE         116
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Summary Statistics for Class Targets
+ 
+Data=DATA
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent    Label
+ 
+ Class         .       no-recurrence-events       201       70.2797    Class
+ Class         .       recurrence-events           85       29.7203    Class
+ 
+ 
+Data=TRAIN
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent    Label
+ 
+ Class         .       no-recurrence-events       120       70.5882    Class
+ Class         .       recurrence-events           50       29.4118    Class
+ 
+ 
+Data=VALIDATE
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent    Label
+ 
+ Class         .       no-recurrence-events        81       69.8276    Class
+ Class         .       recurrence-events           35       30.1724    Class
